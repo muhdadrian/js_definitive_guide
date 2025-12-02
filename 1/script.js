@@ -1,18 +1,11 @@
 'use strict';
 
-// 56
+// 57
 
-let o = { x: 1 };
+let o = { x: 1 },
+  p = { x: 1 };
+console.log(o === p);
 
-o.x = 2;
-console.log(o.x);
-
-o.x = 3;
-console.log(o.x);
-
-let a = [1, 2, 3];
-console.log(a);
-a[0] = 0;
-console.log(a);
-a[3] = 4;
-console.log(a);
+let a = [],
+  b = [];
+console.log(a === b);
