@@ -11,6 +11,6 @@ function equalArrays(a, b) {
   return true;
   // Otherwise they are equal
 }
-a = [1, 2, 3];
-b = [1, 2, 3];
+a = [1, 2, 3]; //let a if 'use strict';
+b = [1, 2, 3]; //let b if 'use strict';
 console.log(equalArrays(a, b));

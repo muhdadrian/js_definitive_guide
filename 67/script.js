@@ -5,3 +5,13 @@ console.log(parseInt("ff", 16)); // => 255: (15*16 + 15)
 console.log(parseInt("zz", 36)); // => 1295: (35*36 + 35)
 console.log(parseInt("077", 8)); // => 63: (7*8 + 7)
 console.log(parseInt("077", 10)); // => 77: (7*10 + 7)
+
+/*
+| Base | Name        | Symbols Used |
+| ---- | ----------- | ------------ |
+| 2    | Binary      | 0–1          |
+| 8    | Octal       | 0–7          |
+| 10   | Decimal     | 0–9          |
+| 16   | Hexadecimal | 0–9 + A–F    |
+| 36   | Base-36     | 0–9 + A–Z    |
+*/

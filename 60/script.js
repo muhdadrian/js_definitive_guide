@@ -5,3 +5,8 @@ console.log('7' * '4'); // 28: both strs convert to numbers
 
 let n = 1 - 'x'; // n == NaN; str "x" can't convert to a number
 n + ' objects'; // "NaN objects": NaN converts to str "NaN"
+
+// my own notes
+console.log(n);
+c = n + ' objects';
+console.log(c);
