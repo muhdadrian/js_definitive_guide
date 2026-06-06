@@ -8,4 +8,4 @@ if (x === 1) {
   console.log(x); // Prints 2
 }
 console.log(x); // Prints 1: we're back in the global scope now
-let x = 3; // ERROR! Syntax error trying to re-declare x
+// let x = 3; // ERROR! Syntax error trying to re-declare x
